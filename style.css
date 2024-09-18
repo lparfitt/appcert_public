@@ -1,1 +1,86 @@
+#myDIV 
+{
+  		width: 100%;
+  		padding: 50px 0;
+  		text-align: center;
+  		background-color: #DF4472;
+  		margin-top: 20px;
+  		color: white;
+}
+	
 
+#button1 
+    {
+        background-color: #cd2355 !important; 
+        color: white !important; 
+        font-size: 20px !important; 
+        padding: 14px 40px !important; 
+        border-radius: 8px !important; 
+        width: 100% !important;
+        background-image: url("/static/bitmap.png")
+    }
+
+
+#lessonheading 
+    {
+        font-size: 20; 
+        font-family: Quicksand, sans-serif; 
+        color: #cd2355; 
+        font-weight: 900; 
+        text-align: center;
+    }
+      
+
+#text 
+    {
+        font-size: 16; 
+        font-family: Quicksand, sans-serif;
+    } 
+      
+
+#images 
+    {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+ul
+	{
+		text-align: left;
+		color: white;
+	}
+
+li
+    {
+        color: white;
+    }
+
+
+#tables, #headers, #tablecontent
+    {
+        color: white; 
+        border: 2px solid white; 
+        border-collapse: collapse; 
+    }
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 1px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+a:link {
+    color: #23CD9B
+}
