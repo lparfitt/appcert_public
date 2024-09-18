@@ -8,19 +8,20 @@
 }
 	
 #button1 {
-    background-color: #cd2355 !important; 
-    color: white !important; 
-    font-size: 20px !important; 
-    padding: 14px 40px !important; 
-    border-radius: 8px !important; 
-    width: 100% !important;
-    background-image: url("/static/bitmap.png");
+	background-color: #cd2355 !important; 
+	color: white !important; 
+	font-size: 20px !important; 
+	padding: 14px 40px !important; 
+	border-radius: 8px !important; 
+	width: 100% !important;
+	background-image: url("/static/bitmap.png");
+	border: 2px solid #9b1f3d !important; /* Added border property */
 	
-    /* Removed unwanted box shadow */
-    box-shadow: none !important;
+	/* Removed unwanted box shadow */
+	box-shadow: none !important;
 	
-    /* Ensure font is not bold */
-    font-weight: normal !important;
+	/* Ensure font is not bold */
+	font-weight: normal !important;
 }
 
 
