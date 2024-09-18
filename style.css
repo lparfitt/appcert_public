@@ -1,32 +1,33 @@
 #myDIV 
 {
-  		width: 100%;
-  		padding: 50px 0;
-  		text-align: center;
-  		background-color: #DF4472;
-  		margin-top: 20px;
-  		color: white;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	background-color: #DF4472;
+	margin-top: 20px;
+	color: white;
 }
 	
 
-#button1 
-    {
-        background-color: #cd2355 !important; 
-        color: white !important; 
-        font-size: 20px !important; 
-        padding: 14px 40px !important; 
-        border-radius: 8px !important; 
-        width: 100% !important;
-        background-image: url("/static/bitmap.png")
-    }
+#button1 {
+	background-color: #cd2355 !important; 
+	font-family: Quicksand, sans-serif !important; /* Added font-family property */
+	color: white !important; 
+	font-size: 20px !important; 
+	padding: 14px 40px !important; 
+	border-radius: 8px !important; 
+	width: 100% !important;
+	background-image: url("/static/bitmap.png");
+	border: 2px solid #9b1f3d !important; /* Added border property */
+}
 
 
 #lessonheading 
     {
         font-size: 20; 
-        font-family: Quicksand, sans-serif !important; 
+        font-family: Quicksand, sans-serif !important; /* Added "!important" */
         color: #cd2355; 
-        font-weight: 900 !important; 
+        font-weight: 900 !important; /* Added "!important" */
         text-align: center;
     }
       
@@ -82,5 +83,17 @@ li
 
 
 a:link {
-    color: #23CD9B
+    color: #23CD9B !important; /* Added "!important" */
+}
+
+a:visited {
+    color: #23CD9B !important; /* Added "visited" property, to ensure a visited link doesn't change colour */
+}
+
+a:hover {
+    color: #1BA883; /* A different shade when hovering */
+}
+
+a:active {
+    color: #1BA883; /* A different shade when clicked */
 }
