@@ -15,7 +15,7 @@
 	border-radius: 8px !important; 
 	width: 100% !important;
 	background-image: url("/static/bitmap.png");
-	border: 2px solid #9b1f3d !important; /* Added border property */
+	border: 2px solid #000000 !important; /* Added border property */
 	
 	/* Removed unwanted box shadow */
 	box-shadow: none !important;
