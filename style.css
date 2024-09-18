@@ -24,7 +24,7 @@
 #lessonheading 
     {
         font-size: 20; 
-        font-family: Quicksand, sans-serif; 
+        font-family: Quicksand, sans-serif !important; 
         color: #cd2355; 
         font-weight: 900; 
         text-align: center;
