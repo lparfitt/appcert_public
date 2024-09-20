@@ -1,35 +1,40 @@
 /* Collapsible button styles */
 details summary {
-    background-color: #cd2355 !important;
-    color: white !important;
-    font-size: 20px !important;
-    padding: 14px 40px !important;
-    border-radius: 8px !important;
-    width: 100% !important;
-    display: block;
-    border: 2px solid #000000 !important;
-    cursor: pointer;
-    margin-bottom: 5px;
-    list-style: none; /* Remove default arrow */
+	background-color: #cd2355 !important;
+	color: white !important;
+	font-size: 20px !important;
+	padding: 14px 40px !important;
+	border-radius: 8px !important;
+	width: 100% !important;
+	display: block;
+	border: 2px solid #000000 !important;
+	cursor: pointer;
+	margin-bottom: 5px;
+	list-style: none; /* Remove default arrow */
 }
 
 details[open] summary {
-    background-color: #9b1f3d !important; /* Change color when open */
+	background-color: #9b1f3d !important; /* Change color when open */
 }
 
 details summary:hover {
-    background-color: #9b1f3d !important;
+	background-color: #9b1f3d !important;
 }
 
 /* Collapsible content inside details */
 details .content {
-    padding: 10px;
-    margin-top: 5px;
-    background-color: #FAFAFA;
-    color: black;
- /*   border-left: 2px solid #cd2355;
-    border-right: 2px solid #cd2355;
-    border-bottom: 2px solid #cd2355; */
+	padding: 10px;
+	margin-top: 5px;
+	background-color: #FAFAFA;
+	color: black;
+	width: 100% !important;
+}
+
+/* Ensuring the iframe takes full width */
+.content iframe {
+	width: 100% !important;
+	height: auto; /* Optional: this will make the iframe responsive */
+	display: block; /* Ensure no extra spacing around iframe */
 }
 
 #lessonheading {
