@@ -38,7 +38,7 @@
 
 /* Show content when the corresponding checkbox is checked */
 .toggle:checked + .content {
-    max-height: 1000px; /* Adjust as necessary for the maximum content height */
+    max-height: 1000px !important; /* Adjust as necessary for the maximum content height */
 }
 
 #lessonheading {
