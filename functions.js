@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    
-  // Collapsible functionality
+    // Collapsible functionality
     var collapsibles = document.getElementsByClassName("collapsible");
     for (var i = 0; i < collapsibles.length; i++) {
         collapsibles[i].addEventListener("click", function() {
             this.classList.toggle("active");
             var content = this.nextElementSibling;
             if (content.style.maxHeight) {
-                content.style.maxHeight = null;
+                content.style.maxHeight = null;  // Collapse
             } else {
-                content.style.maxHeight = content.scrollHeight + "px";
+                content.style.maxHeight = content.scrollHeight + "px";  // Expand
             }
         });
     }
