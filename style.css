@@ -26,14 +26,14 @@
 .content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.5s ease-out;
     background-color: #FAFAFA;
     padding: 0 18px;
     margin-top: 5px;
-    border-left: 2px solid #cd2355;
-    border-right: 2px solid #cd2355;
-    border-bottom: 2px solid #cd2355;
     color: black;
+/*  border-left: 2px solid #cd2355;
+    border-right: 2px solid #cd2355;
+    border-bottom: 2px solid #cd2355; */
 }
 
 /* Show content when the corresponding checkbox is checked */
