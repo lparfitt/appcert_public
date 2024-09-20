@@ -1,3 +1,41 @@
+/* Collapsible button styles */
+.collapsible {
+    background-color: #cd2355;
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: normal; /* Ensuring text is not bold */
+    transition: background-color 0.3s ease;
+}
+
+.collapsible:hover {
+    background-color: #9b1f3d; /* Darker hover effect */
+}
+
+.collapsible.active {
+    background-color: #9b1f3d; /* Active state color */
+}
+
+/* Style for collapsible content */
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #FAFAFA; /* Your desired background color */
+    color: black;
+    margin-top: 5px;
+    border-left: 2px solid #cd2355;
+    border-right: 2px solid #cd2355;
+    border-bottom: 2px solid #cd2355;
+}
+
+/* This can be removed when all collapsables have been updated */
 #myDIV {
 	width: 100%;
 	padding: 50px 0;
