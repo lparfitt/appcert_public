@@ -37,35 +37,6 @@
     border-bottom: 2px solid #cd2355;
 }
 
-/* This can be removed when all collapsables have been updated */
-#myDIV {
-	width: 100%;
-	padding: 50px 0;
-	text-align: center;
-	background-color: #DF4472;
-	margin-top: 20px;
-	color: white;
-}
-
-/* This can be removed when all collapsables have been updated */
-#button1 {
-	background-color: #cd2355 !important; 
-	color: white !important; 
-	font-size: 20px !important; 
-	padding: 14px 40px !important; 
-	border-radius: 8px !important; 
-	width: 100% !important;
-	background-image: url("/static/bitmap.png");
-	border: 2px solid #000000 !important; /* Added border property */
-	
-	/* Removed unwanted box shadow */
-	box-shadow: none !important;
-	
-	/* Ensure font is not bold */
-	font-weight: normal !important;
-}
-
-
 #lessonheading {
 	font-size: 20; 
 	font-family: Quicksand, sans-serif !important; /* Added "!important" */
