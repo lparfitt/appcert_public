@@ -1,41 +1,44 @@
-/* Merging #button1 styles into collapsible class */
-.collapsible {
-	background-color: #cd2355 !important;
-	color: white !important;
-	cursor: pointer;
-	padding: 14px 40px !important;
-	font-size: 20px !important;
-	border-radius: 8px !important;
-	width: 100% !important;
-	border: 2px solid #000000 !important; /* Same as #button1 */
-	text-align: left;
-	outline: none;
-	box-shadow: none !important;
-	background-image: url("/static/bitmap.png");
-	font-weight: normal !important; /* Ensuring text is not bold */
-	transition: background-color 0.3s ease;
+/* Collapsible button styles */
+.collapsible-button {
+    background-color: #cd2355 !important;
+    color: white !important;
+    font-size: 20px !important;
+    padding: 14px 40px !important;
+    border-radius: 8px !important;
+    width: 100% !important;
+    display: block;
+    border: 2px solid #000000 !important;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.collapsible:hover {
-	background-color: #9b1f3d !important; /* Darker hover effect */
+.collapsible-button:hover {
+    background-color: #9b1f3d !important; /* Darker hover effect */
 }
 
-.collapsible.active {
-	background-color: #9b1f3d !important; /* Active state color */
+/* Hides the checkboxes */
+.toggle {
+    display: none;
 }
 
-/* Collapsible content */
+/* Collapsible content hidden by default */
 .content {
-	padding: 0 18px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.3s ease-out;
-	background-color: #FAFAFA; /* Your desired background color */
-	color: black;
-	margin-top: 5px;
-	border-left: 2px solid #cd2355;
-	border-right: 2px solid #cd2355;
-	border-bottom: 2px solid #cd2355;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #FAFAFA;
+    padding: 0 18px;
+    margin-top: 5px;
+    border-left: 2px solid #cd2355;
+    border-right: 2px solid #cd2355;
+    border-bottom: 2px solid #cd2355;
+    color: black;
+}
+
+/* Show content when the corresponding checkbox is checked */
+.toggle:checked + .content {
+    max-height: 1000px; /* Adjust as necessary for the maximum content height */
 }
 
 #lessonheading {
