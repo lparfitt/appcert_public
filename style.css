@@ -27,9 +27,9 @@ details .content {
     margin-top: 5px;
     background-color: #FAFAFA;
     color: black;
-    border-left: 2px solid #cd2355;
+ /*   border-left: 2px solid #cd2355;
     border-right: 2px solid #cd2355;
-    border-bottom: 2px solid #cd2355;
+    border-bottom: 2px solid #cd2355; */
 }
 
 #lessonheading {
