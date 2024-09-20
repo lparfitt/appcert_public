@@ -1,5 +1,5 @@
 /* Collapsible button styles */
-.collapsible-button {
+details summary {
     background-color: #cd2355 !important;
     color: white !important;
     font-size: 20px !important;
@@ -10,35 +10,26 @@
     border: 2px solid #000000 !important;
     cursor: pointer;
     margin-bottom: 5px;
-    transition: background-color 0.3s ease;
+    list-style: none; /* Remove default arrow */
 }
 
-.collapsible-button:hover {
-    background-color: #9b1f3d !important; /* Darker hover effect */
+details[open] summary {
+    background-color: #9b1f3d !important; /* Change color when open */
 }
 
-/* Hides the checkboxes */
-.toggle {
-    display: none;
+details summary:hover {
+    background-color: #9b1f3d !important;
 }
 
-/* Collapsible content hidden by default */
-.content {
-    max-height: 0 !important;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out;
-    background-color: #FAFAFA;
-    padding: 0 18px;
+/* Collapsible content inside details */
+details .content {
+    padding: 10px;
     margin-top: 5px;
+    background-color: #FAFAFA;
     color: black;
-/*  border-left: 2px solid #cd2355;
+    border-left: 2px solid #cd2355;
     border-right: 2px solid #cd2355;
-    border-bottom: 2px solid #cd2355; */
-}
-
-/* Show content when the corresponding checkbox is checked */
-.toggle:checked + .content {
-    max-height: 1000px !important; /* Adjust as necessary for the maximum content height */
+    border-bottom: 2px solid #cd2355;
 }
 
 #lessonheading {
