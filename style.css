@@ -23,8 +23,9 @@ details summary:hover {
 
 /* Collapsible content inside details */
 details .content {
-	padding: 10px;
-	margin-top: 5px;
+	padding: 0 !important;  /* Remove any padding from the collapsible content */
+	margin: 0 auto !important;  /* Center the content */
+	text-align: center;  /* Ensure that the iframe is centered */
 	background-color: #FAFAFA;
 	color: black;
 	width: 100% !important;
@@ -32,10 +33,12 @@ details .content {
 }
 
 .content iframe {
-    width: 100% !important;
-    max-width: 100% !important;  /* Prevent any width restrictions */
-    height: 700px !important;    /* You can adjust this */
-    border: none;
+	width: 100% !important;
+	max-width: 100% !important;  /* Prevent any width restrictions */
+	height: 700px !important;    /* You can adjust this */
+	margin: 0 auto !important;  /* Center the iframe */
+	padding: 0 !important;  /* Ensure no padding inside iframe */
+	border: none;
 }
 
 #lessonheading {
