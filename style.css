@@ -1,11 +1,11 @@
 /* Lesson Heading */
-.rpf-lesson-title {
+#rpf-lesson-title {
     font-size: 24px !important;
     color: #CD2355 !important;
     font-weight: 900 !important;
     text-align: center !important;
     margin-bottom: 20px !important;
-    box-sizing: border-box; /* Include box-sizing */
+    box-sizing: border-box;
 }
 
 /* General Paragraph Text */
@@ -14,7 +14,7 @@
     color: #222222;
     line-height: 1.6;
     margin-bottom: 20px;
-    box-sizing: border-box; /* Include box-sizing */
+    box-sizing: border-box;
 }
 
 /* Notes Block */
@@ -87,36 +87,36 @@
 }
 
 /* Collapsible Button */
-collapse summary {
+details summary {
     background-color: #232D9A;
     color: white;
     font-size: 20px;
     padding: 14px 40px;
     border-radius: 8px;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    box-sizing: border-box;
     display: block;
     cursor: pointer;
     margin-bottom: 5px;
 }
 
-collapse[open] summary {
+details[open] summary {
     background-color: #232E9B;
 }
 
-collapse summary:hover {
+details summary:hover {
     background-color: #232E9B;
 }
 
 /* Collapsible Content */
-collapse .content {
+details .content {
     background-color: #E7F8F7;
     padding: 10px;
     border-left: 5px solid #CD2355;
     margin-top: 5px;
     border-radius: 8px;
     color: #222222;
-    box-sizing: border-box; /* Include box-sizing */
+    box-sizing: border-box;
 }
 
 /* General Video Block Container */
