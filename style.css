@@ -165,8 +165,8 @@ details .content {
     color: #c51d4a; /* Hover color */
 }
 
-/* Image Centering */
-.center-img {
+/* Images (centered) */
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
