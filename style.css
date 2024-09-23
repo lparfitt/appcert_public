@@ -1,6 +1,7 @@
 /* Lesson Heading */
 #rpf-lesson-title {
     font-size: 24px !important;
+    font-family: 'Quicksand', sans-serif !important;
     color: #CD2355 !important;
     font-weight: 900 !important;
     text-align: center !important;
@@ -11,6 +12,7 @@
 /* General Paragraph Text */
 .rpf-text {
     font-size: 16px;
+    font-family: 'Quicksand', sans-serif !important;
     color: #222222;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -27,15 +29,17 @@
 }
 
 .notes h2 {
-    color: #0D7C71;
-    font-size: 24px;
-    font-weight: 700;
+    color: #0D7C71 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
     box-sizing: border-box; /* Include box-sizing */
 }
 
 .notes p {
-    color: #222222;
-    font-size: 16px;
+    color: #222222 !important;
+    font-size: 16px !important;
+    font-family: 'Quicksand', sans-serif !important;
     line-height: 1.6;
     box-sizing: border-box; /* Include box-sizing */
 }
@@ -50,15 +54,17 @@
 }
 
 .task h2 {
-    color: #6B3687;
-    font-size: 24px;
-    font-weight: 700;
+    color: #6C3687 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
     box-sizing: border-box; /* Include box-sizing */
 }
 
 .task p {
-    color: #222222;
-    font-size: 16px;
+    color: #222222 !important;
+    font-size: 16px !important;
+    font-family: 'Quicksand', sans-serif !important;
     line-height: 1.6;
     box-sizing: border-box; /* Include box-sizing */
 }
@@ -73,15 +79,17 @@
 }
 
 .teach h2 {
-    color: #CD2355;
-    font-size: 24px;
-    font-weight: 700;
+    color: #CD2355 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
     box-sizing: border-box; /* Include box-sizing */
 }
 
 .teach p {
-    color: #222222;
-    font-size: 16px;
+    color: #222222 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 16px !important;
     line-height: 1.6;
     box-sizing: border-box; /* Include box-sizing */
 }
@@ -91,6 +99,7 @@ details summary {
     background-color: #232D9A;
     color: white;
     font-size: 20px;
+    font-family: 'Quicksand', sans-serif !important;
     padding: 14px 40px;
     border-radius: 8px;
     width: 100%;
@@ -111,6 +120,7 @@ details summary:hover {
 /* Collapsible Content */
 details .content {
     background-color: #E7F8F7;
+    font-family: 'Quicksand', sans-serif !important;
     padding: 10px;
     border-left: 5px solid #CD2355;
     margin-top: 5px;
