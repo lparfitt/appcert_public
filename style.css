@@ -87,7 +87,7 @@
 }
 
 /* Collapsible Button */
-details summary {
+collapse summary {
     background-color: #232D9A;
     color: white;
     font-size: 20px;
@@ -100,16 +100,16 @@ details summary {
     margin-bottom: 5px;
 }
 
-details[open] summary {
+collapse[open] summary {
     background-color: #232E9B;
 }
 
-details summary:hover {
+collapse summary:hover {
     background-color: #232E9B;
 }
 
 /* Collapsible Content */
-details .content {
+collapse .content {
     background-color: #E7F8F7;
     padding: 10px;
     border-left: 5px solid #CD2355;
