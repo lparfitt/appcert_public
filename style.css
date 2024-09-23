@@ -127,6 +127,8 @@ details .content {
     border-radius: 8px;
     color: #222222;
     box-sizing: border-box;
+    width: 100%;
+    display: block;
 }
 
 /* General Video Block Container */
