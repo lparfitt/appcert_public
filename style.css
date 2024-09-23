@@ -135,6 +135,15 @@ details .content {
     margin-bottom: 15px; 
 }
 
+.content iframe {
+	width: 100% !important;
+	max-width: 100% !important;  /* Prevent any width restrictions */
+	height: 700px !important;    /* You can adjust this */
+	margin: 0 auto !important;  /* Center the iframe */
+	padding: 0 !important;  /* Ensure no padding inside iframe */
+	border: none;
+}
+
 /* General Video Block Container */
 .xblock.xmodule_VideoBlock {
     background-color: #F4EEF7;
