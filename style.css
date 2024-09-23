@@ -30,6 +30,13 @@ details .content {
 	width: 100% !important;
 }
 
+.content iframe {
+    width: 100% !important;
+    max-width: 100% !important;  /* Prevent any width restrictions */
+    height: 700px !important;    /* You can adjust this */
+    border: none;
+}
+
 #lessonheading {
 	font-size: 20; 
 	font-family: Quicksand, sans-serif !important; /* Added "!important" */
