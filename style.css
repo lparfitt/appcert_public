@@ -30,12 +30,14 @@ details .content {
 	width: 100% !important;
 }
 
-/* Ensuring the iframe takes full width */
+/* iFrame in Collapsable Content */
 .content iframe {
-	width: 100% !important;
-	height: auto; /* Optional: this will make the iframe responsive */
-	display: block; /* Ensure no extra spacing around iframe */
+    width: 100% !important;
+    height: 700px !important;
+    display: block;
+    border: none;
 }
+
 
 #lessonheading {
 	font-size: 20; 
