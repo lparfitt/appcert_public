@@ -113,6 +113,15 @@ details .content {
     border-radius: 8px;
 }
 
+/* Override the grey background on the video block */
+.xmodule_display.xmodule_VideoBlock .video {
+    background: #F4EEF7 !important; /* Set to match the block */
+    margin: 0 !important; /* Remove negative margin */
+    padding: 12px !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+
 /* General Video Block Title */
 .xblock.xmodule_VideoBlock .hd-2 {
     color: #CD2355; /* Title color */
