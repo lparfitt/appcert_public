@@ -30,14 +30,6 @@ details .content {
 	width: 100% !important;
 }
 
-/* iFrame in Collapsable Content */
-.content iframe {
-    width: 100% !important;
-    aspect-ratio: 16 / 9; /* This will maintain a 16:9 aspect ratio */
-    display: block;
-    border: none;
-}
-
 #lessonheading {
 	font-size: 20; 
 	font-family: Quicksand, sans-serif !important; /* Added "!important" */
