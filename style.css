@@ -106,52 +106,54 @@ details .content {
     color: #222222;
 }
 
-/* Video Block Container */
-.video {
-    background-color: #F4EEF7;
+/* General Video Block Container */
+.xblock.xmodule_VideoBlock {
+    background-color: #F4EEF7; /* Light background for the video container */
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 
-/* Video Block Title */
-.video-title {
-    color: #CD2355;
+/* General Video Block Title */
+.xblock.xmodule_VideoBlock .hd-2 {
+    color: #CD2355; /* Title color */
+    font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
 
 /* General Transcript Container */
 .subtitles {
-    background-color: #FCF3F6;
+    background-color: #FCF3F6; /* Light pink background */
     padding: 15px;
-    color: #222222;
+    color: #222222; /* Text color */
     border-radius: 8px;
-    border-left: 5px solid #CD2355;
+    border-left: 5px solid #CD2355; /* Accent border */
 }
 
-/* Transcript Text */
+/* Transcript text */
 .subtitles ol.subtitles-menu span {
-    color: #222222;
+    color: #222222; /* Text color */
     font-size: 16px;
-    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6; /* Readability */
 }
 
 /* Transcript Heading */
 .subtitles h3 {
     color: #CD2355;
     font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
 }
 
-/* Transcript Links */
+/* Transcript Links (for skip to start/end) */
 .subtitles a {
-    color: #232E9B;
+    color: #232e9b; /* Link color */
     text-decoration: underline;
 }
 
 .subtitles a:hover {
-    color: #C51D4A;
+    color: #c51d4a; /* Hover color */
 }
 
 /* Image Centering */
