@@ -1,187 +1,187 @@
-/* Global settings */
-body {
-    font-family: Quicksand, sans-serif; /* Ensure body uses Quicksand font */
-    color: #222222; /* Global body text color */
-    font-size: 16px; /* Global font size */
-    line-height: 1.6; /* Line height for readability */
-    background-color: #FFFFFF; /* Set the global background color */
-    margin: 0;
-    padding: 0;
-}
-
 /* Lesson Heading */
-#lessonheading {
-	font-size: 24px; /* Increase size for main headings */
-	font-family: Quicksand, sans-serif !important;
-	color: #cd2355;
-	font-weight: 900 !important;
-	text-align: center;
-	margin-bottom: 20px; /* Add margin for spacing */
+.lesson-title {
+    font-size: 24px;
+    color: #CD2355;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Paragraph text styling */
-p {
-    font-size: 16px; 
-    font-family: Quicksand, sans-serif;
+/* General Paragraph Text */
+.text {
+    font-size: 16px;
     color: #222222;
-    margin-bottom: 20px; /* Add margin to separate paragraphs */
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-/* Lists */
-ul {
-	text-align: left;
-	color: #222222; /* Update list color to match global body text color */
-	margin-left: 20px; /* Add left margin to indent lists */
-}
-li {
-	color: #222222; /* Update list item color */
-	margin-bottom: 10px; /* Add spacing between list items */
-}
-
-/* Images */
-#images {
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-	padding: 20px 0; /* Add some padding around images */
-}
-
-/* Tables */
-#tables, #headers, #tablecontent {
-	color: #222222; /* Ensure text inside tables matches global color */
-	border: 2px solid #222222; /* Use a consistent border color */
-	border-collapse: collapse; 
-	margin: 20px auto; /* Center and space out tables */
-}
-
-/* Collapsible button styles */
-details summary {
-	background-color: #232D9A !important;
-	color: white !important;
-	font-size: 20px !important;
-	padding: 14px 40px !important;
-	border-radius: 8px !important;
-	width: 100% !important;
-	display: block;
-	border: 2px solid #000000 !important;
-	cursor: pointer;
-	margin-bottom: 5px;
-	list-style: none; /* Remove default arrow */
-}
-
-details[open] summary {
-	background-color: #232e9b !important; /* Change color when open */
-}
-
-details summary:hover {
-	background-color: #232e9b !important;
-}
-
-/* Collapsible content inside details */
-details .content {
-	padding: 10px !important;
-	margin-top: 5px;
-	background-color: #E7F8F7;
-	color: #0D7C71;
-	width: 100% !important;
-	display: block !important;
-}
-
-.content iframe {
-	width: 100% !important;
-	max-width: 100% !important;  
-	height: 700px !important;
-	margin: 0 auto !important;
-	padding: 0 !important;
-	border: none;
-}
-
-/* Styling for .notes-block */
-.notes-block {
+/* Notes Block */
+.notes {
     background-color: #E7F8F7;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #222222; /* Body text color */
 }
 
-.notes-block h2 {
-    color: #0D7C71; /* Title color */
-    font-weight: 700;
+.notes h2 {
+    color: #0D7C71;
     font-size: 24px;
+    font-weight: 700;
 }
 
-.notes-block p {
-    color: #222222; /* Body text color */
+.notes p {
+    color: #222222;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* Styling for .task-block */
-.task-block {
+/* Task Block */
+.task {
     background-color: #F4EEF7;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #222222; /* Body text color */
 }
 
-.task-block h2 {
-    color: #6B3687; /* Title color */
-    font-weight: 700;
+.task h2 {
+    color: #6B3687;
     font-size: 24px;
+    font-weight: 700;
 }
 
-.task-block p {
-    color: #222222; /* Body text color */
+.task p {
+    color: #222222;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* Styling for .teach-block */
-.teach-block {
+/* Teach Block */
+.teach {
     background-color: #FCF3F6;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #222222; /* Body text color */
 }
 
-.teach-block h2 {
-    color: #CD2355; /* Title color */
-    font-weight: 700;
+.teach h2 {
+    color: #CD2355;
     font-size: 24px;
+    font-weight: 700;
 }
 
-.teach-block p {
-    color: #222222; /* Body text color */
+.teach p {
+    color: #222222;
     font-size: 16px;
     line-height: 1.6;
 }
 
-/* Specific link styling */
+/* Collapsible Button */
+details summary {
+    background-color: #232D9A;
+    color: white;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+details[open] summary {
+    background-color: #232E9B;
+}
+
+details summary:hover {
+    background-color: #232E9B;
+}
+
+/* Collapsible Content */
+details .content {
+    background-color: #E7F8F7;
+    padding: 10px;
+    border-left: 5px solid #CD2355;
+    margin-top: 5px;
+    border-radius: 8px;
+    color: #222222;
+}
+
+/* Video Block Container */
+.video {
+    background-color: #F4EEF7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Video Block Title */
+.video-title {
+    color: #CD2355;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* General Transcript Container */
+.subtitles {
+    background-color: #FCF3F6;
+    padding: 15px;
+    color: #222222;
+    border-radius: 8px;
+    border-left: 5px solid #CD2355;
+}
+
+/* Transcript Text */
+.subtitles ol.subtitles-menu span {
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Transcript Heading */
+.subtitles h3 {
+    color: #CD2355;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Transcript Links */
+.subtitles a {
+    color: #232E9B;
+    text-decoration: underline;
+}
+
+.subtitles a:hover {
+    color: #C51D4A;
+}
+
+/* Image Centering */
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+/* Custom Link Styling */
 a {
-    color: #c51d4a; /* Primary link color */
+    color: #C51D4A;
     text-decoration: none;
 }
+
 a:hover, a:active {
-    color: #232e9b; /* Link hover/active color */
+    color: #232E9B;
 }
 
-/* General layout and box-sizing */
-* {
-	box-sizing: border-box;
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-/* Clear floats and make rows */
-.column {
-	float: left;
-	width: 20%;
-	padding: 1px;
-}
-
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
+.table th, 
+.table td {
+    border: 2px solid #222222;
+    padding: 10px;
+    text-align: left;
 }
