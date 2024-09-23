@@ -1,6 +1,62 @@
+/* Global settings */
+body {
+    font-family: Quicksand, sans-serif; /* Ensure body uses Quicksand font */
+    color: #222222; /* Global body text color */
+    font-size: 16px; /* Global font size */
+    line-height: 1.6; /* Line height for readability */
+    background-color: #FFFFFF; /* Set the global background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Lesson Heading */
+#lessonheading {
+	font-size: 24px; /* Increase size for main headings */
+	font-family: Quicksand, sans-serif !important;
+	color: #cd2355;
+	font-weight: 900 !important;
+	text-align: center;
+	margin-bottom: 20px; /* Add margin for spacing */
+}
+
+/* Paragraph text styling */
+p {
+    font-size: 16px; 
+    font-family: Quicksand, sans-serif;
+    color: #222222;
+    margin-bottom: 20px; /* Add margin to separate paragraphs */
+}
+
+/* Lists */
+ul {
+	text-align: left;
+	color: #222222; /* Update list color to match global body text color */
+	margin-left: 20px; /* Add left margin to indent lists */
+}
+li {
+	color: #222222; /* Update list item color */
+	margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Images */
+#images {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	padding: 20px 0; /* Add some padding around images */
+}
+
+/* Tables */
+#tables, #headers, #tablecontent {
+	color: #222222; /* Ensure text inside tables matches global color */
+	border: 2px solid #222222; /* Use a consistent border color */
+	border-collapse: collapse; 
+	margin: 20px auto; /* Center and space out tables */
+}
+
 /* Collapsible button styles */
 details summary {
-	background-color: #cd2355 !important;
+	background-color: #232D9A !important;
 	color: white !important;
 	font-size: 20px !important;
 	padding: 14px 40px !important;
@@ -14,68 +70,110 @@ details summary {
 }
 
 details[open] summary {
-	background-color: #9b1f3d !important; /* Change color when open */
+	background-color: #232e9b !important; /* Change color when open */
 }
 
 details summary:hover {
-	background-color: #9b1f3d !important;
+	background-color: #232e9b !important;
 }
 
 /* Collapsible content inside details */
 details .content {
-	padding: 0 !important;  /* Remove any padding from the collapsible content */
-	margin: 0 auto !important;  /* Center the content */
-	text-align: center;  /* Ensure that the iframe is centered */
-	background-color: #FAFAFA;
-	color: black;
+	padding: 10px !important;
+	margin-top: 5px;
+	background-color: #E7F8F7;
+	color: #0D7C71;
 	width: 100% !important;
-	display: block !important; /* Override table-cell */
+	display: block !important;
 }
 
 .content iframe {
 	width: 100% !important;
-	max-width: 100% !important;  /* Prevent any width restrictions */
-	height: 700px !important;    /* You can adjust this */
-	margin: 0 auto !important;  /* Center the iframe */
-	padding: 0 !important;  /* Ensure no padding inside iframe */
+	max-width: 100% !important;  
+	height: 700px !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
 	border: none;
 }
 
-#lessonheading {
-	font-size: 20; 
-	font-family: Quicksand, sans-serif !important; /* Added "!important" */
-	color: #cd2355; 
-	font-weight: 900 !important; /* Added "!important" */
-	text-align: center;
-}
-      
-#text {
-	font-size: 16; 
-	font-family: Quicksand, sans-serif;
-} 
-      
-#images {
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
+/* Styling for .notes-block */
+.notes-block {
+    background-color: #E7F8F7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #222222; /* Body text color */
 }
 
-ul {
-	text-align: left;
-	color: white;
+.notes-block h2 {
+    color: #0D7C71; /* Title color */
+    font-weight: 700;
+    font-size: 24px;
 }
 
-li {
-	color: white;
+.notes-block p {
+    color: #222222; /* Body text color */
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-
-#tables, #headers, #tablecontent {
-	color: white; 
-	border: 2px solid white; 
-	border-collapse: collapse; 
+/* Styling for .task-block */
+.task-block {
+    background-color: #F4EEF7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #222222; /* Body text color */
 }
 
+.task-block h2 {
+    color: #6B3687; /* Title color */
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.task-block p {
+    color: #222222; /* Body text color */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Styling for .teach-block */
+.teach-block {
+    background-color: #FCF3F6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #222222; /* Body text color */
+}
+
+.teach-block h2 {
+    color: #CD2355; /* Title color */
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.teach-block p {
+    color: #222222; /* Body text color */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Specific link styling */
+a {
+    color: #c51d4a; /* Primary link color */
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #232e9b; /* Link hover/active color */
+}
+
+/* General layout and box-sizing */
+* {
+	box-sizing: border-box;
+}
+
+/* Clear floats and make rows */
 .column {
 	float: left;
 	width: 20%;
@@ -86,26 +184,4 @@ li {
 	content: "";
 	clear: both;
 	display: table;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-
-/* Specific link styling for links inside #myDIV */
-#myDIV a {
-	color: #23CD9B !important;
-}
-
-#myDIV a:visited {
-	color: #23CD9B !important;
-}
-
-#myDIV a:hover {
-	color: #1BA883; /* Optional hover color */
-}
-
-#myDIV a:active {
-	color: #1BA883; /* Optional active color */
 }
