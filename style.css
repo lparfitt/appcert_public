@@ -1,18 +1,20 @@
 /* Lesson Heading */
-.lesson-title {
+.rpf-lesson-title {
     font-size: 24px;
     color: #CD2355;
     font-weight: 900;
     text-align: center;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* General Paragraph Text */
-.text {
+.rpf-text {
     font-size: 16px;
     color: #222222;
     line-height: 1.6;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Notes Block */
@@ -21,18 +23,21 @@
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .notes h2 {
     color: #0D7C71;
     font-size: 24px;
     font-weight: 700;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .notes p {
     color: #222222;
     font-size: 16px;
     line-height: 1.6;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Task Block */
@@ -41,18 +46,21 @@
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .task h2 {
     color: #6B3687;
     font-size: 24px;
     font-weight: 700;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .task p {
     color: #222222;
     font-size: 16px;
     line-height: 1.6;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Teach Block */
@@ -61,90 +69,100 @@
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .teach h2 {
     color: #CD2355;
     font-size: 24px;
     font-weight: 700;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .teach p {
     color: #222222;
     font-size: 16px;
     line-height: 1.6;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Collapsible Button */
-details summary {
+collapse summary {
     background-color: #232D9A;
     color: white;
     font-size: 20px;
     padding: 14px 40px;
     border-radius: 8px;
     width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
     display: block;
     cursor: pointer;
     margin-bottom: 5px;
 }
 
-details[open] summary {
+collapse[open] summary {
     background-color: #232E9B;
 }
 
-details summary:hover {
+collapse summary:hover {
     background-color: #232E9B;
 }
 
 /* Collapsible Content */
-details .content {
+collapse .content {
     background-color: #E7F8F7;
     padding: 10px;
     border-left: 5px solid #CD2355;
     margin-top: 5px;
     border-radius: 8px;
     color: #222222;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* General Video Block Container */
 .xblock.xmodule_VideoBlock {
-    background-color: #F4EEF7; /* Light background for the video container */
+    background-color: #F4EEF7;
     padding: 20px;
     border-radius: 8px;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Override the grey background on the video block */
 .xmodule_display.xmodule_VideoBlock .video {
-    background: #F4EEF7 !important; /* Set to match the block */
-    margin: 0 !important; /* Remove negative margin */
+    background: #F4EEF7 !important;
+    margin: 0 !important;
     padding: 12px !important;
     border-radius: 5px !important;
     outline: none !important;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* General Video Block Title */
 .xblock.xmodule_VideoBlock .hd-2 {
-    color: #CD2355; /* Title color */
+    color: #CD2355;
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* General Transcript Container */
 .subtitles {
-    background-color: #FCF3F6; /* Light pink background */
+    background-color: #FCF3F6;
     padding: 15px;
-    color: #222222; /* Text color */
+    color: #222222;
     border-radius: 8px;
-    border-left: 5px solid #CD2355; /* Accent border */
+    border-left: 5px solid #CD2355;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Transcript text */
 .subtitles ol.subtitles-menu span {
-    color: #222222; /* Text color */
+    color: #222222;
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    line-height: 1.6; /* Readability */
+    line-height: 1.6;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Transcript Heading */
@@ -153,16 +171,19 @@ details .content {
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Transcript Links (for skip to start/end) */
 .subtitles a {
-    color: #232e9b; /* Link color */
+    color: #232e9b;
     text-decoration: underline;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .subtitles a:hover {
-    color: #c51d4a; /* Hover color */
+    color: #c51d4a;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Images (centered) */
@@ -171,16 +192,19 @@ details .content {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Custom Link Styling */
 a {
     color: #C51D4A;
     text-decoration: none;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 a:hover, a:active {
     color: #232E9B;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 /* Table Styling */
@@ -188,6 +212,7 @@ a:hover, a:active {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    box-sizing: border-box; /* Include box-sizing */
 }
 
 .table th, 
@@ -195,4 +220,5 @@ a:hover, a:active {
     border: 2px solid #222222;
     padding: 10px;
     text-align: left;
+    box-sizing: border-box; /* Include box-sizing */
 }
