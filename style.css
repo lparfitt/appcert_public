@@ -1,10 +1,10 @@
 /* Lesson Heading */
 .rpf-lesson-title {
-    font-size: 24px;
-    color: #CD2355;
-    font-weight: 900;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 24px !important;
+    color: #CD2355 !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
     box-sizing: border-box; /* Include box-sizing */
 }
 
@@ -87,7 +87,7 @@
 }
 
 /* Collapsible Button */
-collapse summary {
+details summary {
     background-color: #232D9A;
     color: white;
     font-size: 20px;
@@ -100,16 +100,16 @@ collapse summary {
     margin-bottom: 5px;
 }
 
-collapse[open] summary {
+details[open] summary {
     background-color: #232E9B;
 }
 
-collapse summary:hover {
+details summary:hover {
     background-color: #232E9B;
 }
 
 /* Collapsible Content */
-collapse .content {
+details .content {
     background-color: #E7F8F7;
     padding: 10px;
     border-left: 5px solid #CD2355;
