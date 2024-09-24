@@ -19,6 +19,47 @@
 	box-sizing: border-box;
 }
 
+/* Pseudo-element for the top-right text and icon */
+.teach::before, .notes::before, .task::before {
+    content: "TEACH"; /* Default text, will change for each class */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+/* Adjust for each block type */
+.teach::before {
+    content: "TEACH"; /* Adjust text for .teach */
+}
+
+.notes::before {
+    content: "NOTES"; /* Adjust text for .notes */
+}
+
+.task::before {
+    content: "TASK"; /* Adjust text for .task */
+}
+
+/* Add icons (example using Font Awesome icons) */
+.teach::before::after, .notes::before::after, .task::before::after {
+    content: "\f0ae"; /* Example Font Awesome icon unicode (change as needed) */
+    font-family: "FontAwesome"; /* Assuming you have Font Awesome included */
+    margin-left: 8px; /* Spacing between text and icon */
+}
+
+/* Extra content padding to separate the pseudo-element */
+.teach p, .notes p, .task p {
+    margin-top: 20px; /* Adds space between the content and the pseudo-element */
+}
+
 /* Notes Block */
 .notes {
 	position: relative;
@@ -48,22 +89,6 @@
 	box-sizing: border-box;
 }
 
-/* Pseudo-element for the top-right text and icon */
-.notes::before {
-    content: "NOTES"; /* Default text, will change for each class */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #E5E5E5;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    box-sizing: border-box;
-}
-
 /* Task Block */
 .task {
 	position: relative;
@@ -84,22 +109,6 @@
 	margin-bottom: 15px;
 }
 
-/* Pseudo-element for the top-right text and icon */
-.task::before {
-    content: "TASK"; /* Default text, will change for each class */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #E5E5E5;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    box-sizing: border-box;
-}
-
 /* Teach Block */
 .teach {
 	position: relative;
@@ -118,22 +127,6 @@
 	font-weight: 700 !important;
 	box-sizing: border-box; 
 	margin-bottom: 15px;
-}
-
-/* Pseudo-element for the top-right text and icon */
-.teach::before {
-    content: "TEACH"; /* Default text, will change for each class */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #E5E5E5;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    box-sizing: border-box;
 }
 
 /* Collapsible Button */
