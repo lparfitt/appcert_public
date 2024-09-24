@@ -158,18 +158,25 @@ details .content {
 	border-radius: 8px;
 	color: #222222;
 	box-sizing: border-box;
-	width: 100%;
+	width: 100%; /* Full width within the content box */
 	display: block;
 	margin-bottom: 15px; 
+	overflow: hidden;  /* Prevents overflowing elements */
 }
 
 .content iframe {
 	width: 100% !important;
 	max-width: 100% !important;  /* Prevent any width restrictions */
-	height: 700px !important;    /* You can adjust this */
+	height: calc(100vw * 9 / 16);  /* Keep a 16:9 aspect ratio */
+	max-height: 700px;  /* Limit max height for larger screens */
 	margin: 0 auto !important;  /* Center the iframe */
-	padding: 0 !important;  /* Ensure no padding inside iframe */
+	padding: 0 !important;
 	border: none;
+}
+
+/* Specific adjustment for portrait documents */
+.content.portrait iframe {
+    height: calc(100vw * 16 / 9);  /* Inverts aspect ratio for portrait documents */
 }
 
 /* General Video Block Container */
