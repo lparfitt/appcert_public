@@ -58,6 +58,7 @@
 	position: relative;
 	padding: 40px 20px 20px 20px;
 	background-color: #E7F8F7;
+	border: 2px solid #0D7C71;
 	padding: 20px;
 	border-radius: 8px;
 	margin-bottom: 20px;
@@ -87,6 +88,7 @@
 	position: relative;
 	padding: 40px 20px 20px 20px;
 	background-color: #F4EEF7;
+	border: 2px solid #6B3687;
 	padding: 20px;
 	border-radius: 8px;
 	margin-bottom: 20px;
@@ -107,6 +109,7 @@
 	position: relative;
 	padding: 40px 20px 20px 20px;
 	background-color: #FCF3F6;
+	border: 2px solid #CD2355;
 	padding: 20px;
 	border-radius: 8px;
 	margin-bottom: 20px;
