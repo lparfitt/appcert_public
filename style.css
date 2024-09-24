@@ -21,6 +21,8 @@
 
 /* Notes Block */
 .notes {
+	position: relative;
+	padding: 40px 20px 20px 20px;
 	background-color: #E7F8F7;
 	padding: 20px;
 	border-radius: 8px;
@@ -46,8 +48,26 @@
 	box-sizing: border-box;
 }
 
+/* Pseudo-element for the top-right text and icon */
+.notes::before {
+    content: "NOTES"; /* Default text, will change for each class */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
 /* Task Block */
 .task {
+	position: relative;
+	padding: 40px 20px 20px 20px;
 	background-color: #F4EEF7;
 	padding: 20px;
 	border-radius: 8px;
@@ -64,8 +84,26 @@
 	margin-bottom: 15px;
 }
 
+/* Pseudo-element for the top-right text and icon */
+.task::before {
+    content: "TASK"; /* Default text, will change for each class */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
 /* Teach Block */
 .teach {
+	position: relative;
+	padding: 40px 20px 20px 20px;
 	background-color: #FCF3F6;
 	padding: 20px;
 	border-radius: 8px;
@@ -80,6 +118,22 @@
 	font-weight: 700 !important;
 	box-sizing: border-box; 
 	margin-bottom: 15px;
+}
+
+/* Pseudo-element for the top-right text and icon */
+.teach::before {
+    content: "TEACH"; /* Default text, will change for each class */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    box-sizing: border-box;
 }
 
 /* Collapsible Button */
