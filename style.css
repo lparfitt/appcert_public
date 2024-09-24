@@ -1,138 +1,123 @@
 /* Lesson Heading */
 #rpf-lesson-title {
-    font-size: 1.5em !important;
-    font-family: 'Quicksand', sans-serif !important;
-    color: #CD2355 !important;
-    font-weight: 900 !important;
-    text-align: center !important;
-    margin-bottom: 20px !important;
-    box-sizing: border-box;
+	font-size: 1.5em !important;
+	font-family: 'Quicksand', sans-serif !important;
+	color: #CD2355 !important;
+	font-weight: 900 !important;
+	text-align: center !important;
+	margin-bottom: 20px !important;
+	box-sizing: border-box;
 }
 
 /* General Paragraph Text */
 .rpf-text {
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif !important;
-    color: #222222;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif !important;
+	color: #222222;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 /* Notes Block */
 .notes {
-    background-color: #E7F8F7;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+	background-color: #E7F8F7;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .notes h2 {
-    color: #0D7C71 !important;
-    font-family: 'Quicksand', sans-serif !important;
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    box-sizing: border-box;
-    margin-bottom: 15px;
+	color: #0D7C71 !important;
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 24px !important;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	margin-bottom: 15px;
 }
 
-.notes p {
-    color: #222222 !important;
-    font-size: 16px !important;
-    font-family: 'Quicksand', sans-serif !important;
-    line-height: 1.6;
-    box-sizing: border-box;
+/* body text for the NOtes, Task and Teach Blocks */
+.notes p, .task p, .teach p {
+	color: #222222 !important;
+	font-size: 16px !important;
+	font-family: 'Quicksand', sans-serif !important;
+	line-height: 1.6;
+	box-sizing: border-box;
 }
 
 /* Task Block */
 .task {
-    background-color: #F4EEF7;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+	background-color: #F4EEF7;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .task h2 {
-    color: #6C3687 !important;
-    font-family: 'Quicksand', sans-serif !important;
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-
-.task p {
-    color: #222222 !important;
-    font-size: 16px !important;
-    font-family: 'Quicksand', sans-serif !important;
-    line-height: 1.6;
-    box-sizing: border-box;
+	color: #6C3687 !important;
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 24px !important;
+	font-weight: 700 !important;
+	box-sizing: border-box;
+	margin-bottom: 15px;
 }
 
 /* Teach Block */
 .teach {
-    background-color: #FCF3F6;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+	background-color: #FCF3F6;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .teach h2 {
-    color: #CD2355 !important;
-    font-family: 'Quicksand', sans-serif !important;
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    box-sizing: border-box; 
-    margin-bottom: 15px;
-}
-
-.teach p {
-    color: #222222 !important;
-    font-family: 'Quicksand', sans-serif !important;
-    font-size: 16px !important;
-    line-height: 1.6;
-    box-sizing: border-box;
+	color: #CD2355 !important;
+	font-family: 'Quicksand', sans-serif !important;
+	font-size: 24px !important;
+	font-weight: 700 !important;
+	box-sizing: border-box; 
+	margin-bottom: 15px;
 }
 
 /* Collapsible Button */
 details summary {
-    background-color: #232D9A;
-    color: white;
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif !important;
-    padding: 14px 40px;
-    border-radius: 8px;
-    width: 100%;
-    box-sizing: border-box;
-    display: block;
-    cursor: pointer;
-    margin-bottom: 15px;
+	background-color: #232D9A;
+	color: white;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif !important;
+	padding: 14px 40px;
+	border-radius: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	cursor: pointer;
+	margin-bottom: 15px;
 }
 
 details[open] summary {
-    background-color: #232E9B;
+	background-color: #232E9B;
 }
 
 details summary:hover {
-    background-color: #232E9B;
+	background-color: #232E9B;
 }
 
 /* Collapsible Content */
 details .content {
-    background-color: #E7F8F7;
-    font-family: 'Quicksand', sans-serif !important;
-    padding: 10px;
-    border-left: 5px solid #CD2355;
-    margin-top: 5px;
-    border-radius: 8px;
-    color: #222222;
-    box-sizing: border-box;
-    width: 100%;
-    display: block;
-    margin-bottom: 15px; 
+	background-color: #E7F8F7;
+	font-family: 'Quicksand', sans-serif !important;
+	padding: 10px;
+	border-left: 5px solid #CD2355;
+	margin-top: 5px;
+	border-radius: 8px;
+	color: #222222;
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	margin-bottom: 15px; 
 }
 
 .content iframe {
@@ -146,104 +131,106 @@ details .content {
 
 /* General Video Block Container */
 .xblock.xmodule_VideoBlock {
-    background-color: #F4EEF7;
-    padding: 20px;
-    border-radius: 8px;
-    box-sizing: border-box; 
+	background-color: #F4EEF7;
+	padding: 20px;
+	border-radius: 8px;
+	box-sizing: border-box; 
 }
 
 /* Override the grey background on the video block */
 .xmodule_display.xmodule_VideoBlock .video {
-    background: #F4EEF7 !important;
-    margin: 0 !important;
-    padding: 12px !important;
-    border-radius: 5px !important;
-    outline: none !important;
-    box-sizing: border-box;
+	background: #F4EEF7 !important;
+	margin: 0 !important;
+	padding: 12px !important;
+	border-radius: 5px !important;
+	outline: none !important;
+	box-sizing: border-box;
 }
 
 /* General Video Block Title */
 .xblock.xmodule_VideoBlock .hd-2 {
-    color: #CD2355;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    box-sizing: border-box;
+	color: #CD2355;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	box-sizing: border-box;
 }
 
 /* General Transcript Container */
 .subtitles {
-    background-color: #FCF3F6;
-    padding: 15px;
-    color: #222222;
-    border-radius: 8px;
-    border-left: 5px solid #CD2355;
-    box-sizing: border-box;
+	background-color: #FCF3F6;
+	padding: 15px;
+	color: #222222;
+	border-radius: 8px;
+	border-left: 5px solid #CD2355;
+	box-sizing: border-box;
 }
 
 /* Transcript text */
 .subtitles ol.subtitles-menu span {
-    color: #222222;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1.6;
-    box-sizing: border-box;
+	color: #222222;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.6;
+	box-sizing: border-box;
 }
 
 /* Transcript Heading */
 .subtitles h3 {
-    color: #CD2355;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    box-sizing: border-box;
+	color: #CD2355;
+	font-size: 18px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	box-sizing: border-box;
 }
 
 /* Transcript Links (for skip to start/end) */
 .subtitles a {
-    color: #232e9b;
-    text-decoration: underline;
-    box-sizing: border-box; 
+	color: #232e9b;
+	text-decoration: underline;
+	box-sizing: border-box; 
 }
 
 .subtitles a:hover {
-    color: #c51d4a;
-    box-sizing: border-box;
+	color: #c51d4a;
+	box-sizing: border-box;
 }
 
 /* Images (centered) */
 .images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 0;
-    box-sizing: border-box;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0;
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Custom Link Styling */
 a {
-    color: #C51D4A;
-    text-decoration: none;
-    box-sizing: border-box;
+	color: #C51D4A;
+	text-decoration: none;
+	box-sizing: border-box;
 }
 
 a:hover, a:active {
-    color: #232E9B;
-    box-sizing: border-box;
+	color: #232E9B;
+	box-sizing: border-box;
 }
 
 /* Table Styling */
 .table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    box-sizing: border-box;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	box-sizing: border-box;
 }
 
 .table th, 
 .table td {
-    border: 2px solid #222222;
-    padding: 10px;
-    text-align: left;
-    box-sizing: border-box;
+	border: 2px solid #222222;
+	padding: 10px;
+	text-align: left;
+	box-sizing: border-box;
 }
