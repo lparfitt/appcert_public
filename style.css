@@ -1,3 +1,14 @@
+/* Style for Edly page title to match lesson title */
+.unit-title {
+    font-size: 1.8em !important;
+    font-family: 'Quicksand', sans-serif !important;
+    color: #CD2355 !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    box-sizing: border-box;
+}
+
 /* Lesson Heading */
 #rpf-lesson-title {
 	font-size: 1.8em !important;
