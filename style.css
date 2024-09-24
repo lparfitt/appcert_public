@@ -120,6 +120,11 @@
 	margin-bottom: 15px;
 }
 
+/* Extra content padding to separate the pseudo-element */
+.teach p, .notes p, .task p {
+	margin-top: 60px; /* Adds space between the content and the pseudo-element */
+}
+
 /* Collapsible Button */
 details summary {
 	background-color: #232D9A;
