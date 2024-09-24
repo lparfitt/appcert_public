@@ -21,52 +21,31 @@
 
 /* Pseudo-element for the top-right text and icon */
 .teach::before, .notes::before, .task::before {
-    content: "TEACH"; /* Default text, will change for each class */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #afafaf;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 5px 10px;
-    box-sizing: border-box;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #afafaf;
+	font-size: 18px;
+	font-weight: 900; /* Solid icons */
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	font-family: "Font Awesome 6 Free"; /* Ensures you're using Font Awesome */
 }
 
 /* Adjust for each block type */
 .teach::before {
-    content: "TEACH"; /* Adjust text for .teach */
+	content: "TEACH \f19d"; /* Book icon (Solid) */
 }
 
 .notes::before {
-    content: "NOTES"; /* Adjust text for .notes */
+	content: "NOTES \f27a"; /* Pencil icon (Solid) */
 }
 
 .task::before {
-    content: "TASK"; /* Adjust text for .task */
-}
-
-.teach::before::after {
-    content: "\f19d"; /* Font Awesome book icon (example) */
-    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
-    margin-left: 8px;
-    font-weight: 900; /* Ensure the correct font weight for solid icons */
-}
-
-.notes::before::after {
-    content: "\f27a"; /* Font Awesome book icon (example) */
-    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
-    margin-left: 8px;
-    font-weight: 900; /* Ensure the correct font weight for solid icons */
-}
-
-.task::before::after {
-    content: "\f14a"; /* Font Awesome book icon (example) */
-    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
-    margin-left: 8px;
-    font-weight: 900; /* Ensure the correct font weight for solid icons */
+	content: "TASK \f14a"; /* List icon (Solid) */
 }
 
 /* Extra content padding to separate the pseudo-element */
