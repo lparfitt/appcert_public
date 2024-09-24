@@ -48,15 +48,10 @@
 	content: "TASK \f14a"; /* List icon (Solid) */
 }
 
-/* Extra content padding to separate the pseudo-element */
-.teach p, .notes p, .task p {
-    margin-top: 20px; /* Adds space between the content and the pseudo-element */
-}
-
 /* Notes Block */
 .notes {
 	position: relative;
-	padding: 40px 20px 20px 20px;
+	padding: 60px 20px 20px 20px;
 	background-color: #E7F8F7;
 	border: 2px solid #0D7C71;
 	padding: 20px;
@@ -86,7 +81,7 @@
 /* Task Block */
 .task {
 	position: relative;
-	padding: 40px 20px 20px 20px;
+	padding: 60px 20px 20px 20px;
 	background-color: #F4EEF7;
 	border: 2px solid #6B3687;
 	padding: 20px;
@@ -107,7 +102,7 @@
 /* Teach Block */
 .teach {
 	position: relative;
-	padding: 40px 20px 20px 20px;
+	padding: 60px 20px 20px 20px;
 	background-color: #FCF3F6;
 	border: 2px solid #CD2355;
 	padding: 20px;
