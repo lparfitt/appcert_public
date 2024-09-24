@@ -48,11 +48,25 @@
     content: "TASK"; /* Adjust text for .task */
 }
 
-/* Add icons (example using Font Awesome icons) */
-.teach::before::after, .notes::before::after, .task::before::after {
-    content: "\f0ae"; /* Example Font Awesome icon unicode (change as needed) */
-    font-family: "FontAwesome"; /* Assuming you have Font Awesome included */
-    margin-left: 8px; /* Spacing between text and icon */
+.teach::before::after {
+    content: "\f19d"; /* Font Awesome book icon (example) */
+    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
+    margin-left: 8px;
+    font-weight: 900; /* Ensure the correct font weight for solid icons */
+}
+
+.notes::before::after {
+    content: "\f27a"; /* Font Awesome book icon (example) */
+    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
+    margin-left: 8px;
+    font-weight: 900; /* Ensure the correct font weight for solid icons */
+}
+
+.task::before::after {
+    content: "\f14a"; /* Font Awesome book icon (example) */
+    font-family: "Font Awesome 5 Free"; /* Use Font Awesome 5/6 */
+    margin-left: 8px;
+    font-weight: 900; /* Ensure the correct font weight for solid icons */
 }
 
 /* Extra content padding to separate the pseudo-element */
